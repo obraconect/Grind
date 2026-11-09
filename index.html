@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grid Fachadas de Lojas</title>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px;
+  font-size: 21px;
+  font-weight: 900;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  padding: 6px;
+}
+.bloco-grande{
+  grid-column: span 2;
+}
+img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <span>davi walker</span>
+  <span>menu</span>
+</header>
+
+<div class="grid">
+
+  <!-- 🔹 4 FACHADAS -->
+  <div><img src="https://picsum.photos/id/280/500/600" alt="fachada de loja"></div>
+  <div><img src="https://picsum.photos/id/281/500/600" alt="fachada de loja"></div>
+  <div><img src="https://picsum.photos/id/282/500/600" alt="fachada de loja"></div>
+  <div><img src="https://picsum.photos/id/283/500/600" alt="fachada de loja"></div>
+
+  <!-- 🔹 1 GRANDE -->
+  <div class="bloco-grande">
+    <img src="https://picsum.photos/id/284/1000/450" alt="fachada grande">
+  </div>
+
+  <!-- 🔹 4 FACHADAS -->
+  <div><img src="https://picsum.photos/id/285/500/600" alt="fachada de loja"></div>
+  <div><img src="https://picsum.photos/id/286/500/600" alt="fachada de loja"></div>
+  <div><img src="https://picsum.photos/id/287/500/600" alt="fachada de loja"></div>
+  <div><img src="https://picsum.photos/id/288/500/600" alt="fachada de loja"></div>
+
+  <!-- 🔹 1 GRANDE -->
+  <div class="bloco-grande">
+    <img src="https://picsum.photos/id/289/1000/450" alt="fachada grande">
+  </div>
+
+  <!-- 🔹 4 FACHADAS -->
+  <div><img src="https://picsum.photos/id/290/500/600" alt="fachada de loja"></div>
+  <div><img src="https://picsum.photos/id/291/500/600" alt="fachada de loja"></div>
+  <div><img src="https://picsum.photos/id/292/500/600" alt="fachada de loja"></div>
+  <div><img src="https://picsum.photos/id/293/500/600" alt="fachada de loja"></div>
+
+  <!-- 🔹 1 GRANDE -->
+  <div class="bloco-grande">
+    <img src="https://picsum.photos/id/294/1000/450" alt="fachada grande">
+  </div>
+
+  <!-- 🔹 4 FACHADAS -->
+  <div><img src="https://picsum.photos/id/295/500/600" alt="fachada de loja"></div>
+  <div><img src="https://picsum.photos/id/296/500/600" alt="fachada de loja"></div>
+  <div><img src="https://picsum.photos/id/297/500/600" alt="fachada de loja"></div>
+  <div><img src="https://picsum.photos/id/298/500/600" alt="fachada de loja"></div>
+
+  <!-- 🔹 1 GRANDE -->
+  <div class="bloco-grande">
+    <img src="https://picsum.photos/id/299/1000/450" alt="fachada grande">
+  </div>
+
+</div>
+
+</body>
+</html>
